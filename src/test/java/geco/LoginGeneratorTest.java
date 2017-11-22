@@ -37,7 +37,6 @@ public class LoginGeneratorTest extends TestCase {
         String loginPaulDurand =
                 loginGenerator.generateLoginForNomAndPrenom("Dùrand", "Paul");
         assertThat(loginPaulDurand, equalTo("PDUR"));
-
     }
 
 }
